@@ -21,14 +21,8 @@ int main() {
 
     }
     fin.close();
-    int a = size;
-
-    for (int i = 0; i < size / 2; i++) {
-        a--;
-        swap(mas[i], mas[a]);
-    }
-
-    for (int i = 0; i < size; i++) {
+    
+    for (int i = size-1; i > -1; i--) {
 
         cout << mas[i] << " ";
     }
