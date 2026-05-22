@@ -19,7 +19,7 @@ int main() {
     while (!fin.eof())
     {
         fin >> str;
-        cout << str << std::endl;
+        cout << str << endl;
     }
     fin.close();
 
